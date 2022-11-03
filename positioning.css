@@ -1,13 +1,12 @@
 *{
     box-sizing: border-box;
 }
-header{
+.top-bar{
     display: flex;
-    gap: 350px;
     background-color: #24252A;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
+    padding: 6px;
 }
 .list{
     display: flex;
@@ -16,7 +15,12 @@ header{
     width: 500px;
     color: white;
 }
-.lefthead{
+.menu-bar{
+    width: 12px;
+    height: 12px;
+    /* margin-bottom: 24px; */
+}
+.left-head{
     color: white;
 }
 .dis{
@@ -53,10 +57,6 @@ header{
     background: #e0e0e0;
     box-shadow: 15px 15px 30px #bebebe,
                 -15px -15px 30px #ffffff;
-    position: relative;            
-}
-.ad{
-    position: absolute;
 }
 .card2{
     width: 230px;
@@ -71,15 +71,14 @@ header{
     height: 300px;
     background: #e0e0e0;
     box-shadow: 15px 15px 30px #bebebe,
-                -15px -15px 30px #ffffff;
-    
+    -15px -15px 30px #ffffff;
 }
 .med{
     color: #2588CC;
     font-size: 24px;
     align-items: center;
 }
-.cardcontent{
+.card-content{
     align-items: center;
     padding: 15px;
     margin-top: 70px;

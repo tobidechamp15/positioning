@@ -1,60 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Positioning Design</title>
     <link rel="stylesheet" href="positioning.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
 </head>
 <body>
-    <header>
-        <div class="lefthead">social-growth</div>
-        <div>
-            <ul class="list">
+    <div class="container-fluid m-0 p-0">
+        <div class="top-bar">
+            <div class="left-head">social-growth</div>
+            <ul class="list d-none d-md-flex m-0">
                 <li>Services</li>
                 <li>Projects</li>
                 <li>About</li>
                 <li class="dis">Discord</li>
             </ul>
+            <span class="menu-bar d-block d-md-none" style="padding-bottom: 24px;"><img src="assets/menu-bar.png"
+                    class="menu-bar"><span>
         </div>
-    </header>
-                    <!-- The header of the Webpage -->
-    <section>
+        <section class="main-body d-flex flex-column">
             <div class="heading">
-             <h1 class="header">Services</h1>
-             <p class="subheading">The Most Trusted Social Media Growth Site</p>
+                <h1 class="header">Services</h1>
+                <p class="subheading">The Most Trusted Social Media Growth Site</p>
             </div>
-                    <!-- The body of the Webpage      -->
-                <div>
-                    <div class="content">
-                        <div class="card1">
-                            <section class="cardcontent">
-                                <p class="med"><img src="assets/insta.png" alt="insta" id="insta"> Instagram</p>
-                                <p class="p-content">High Quality Likes, Followers and Comment</p
-                                    >
-                                <span class="more">More</span>
-                            </section>
-                        </div>
-                        <div class="card2">
-                            <section class="cardcontent">
-                                <p class="med"><img src="assets/twit.png" alt="twit" id="twit"> Twitter</p>
-                                <p class="p-content">High Quality Likes, Followers and Comment</p
-                                    >
-                                <span class="more">More</span>
-                            </section>
-                        </div>
-                        <div class="card3">
-                            <section class="cardcontent">
-                                <p class="med"><img src="assets/tube.png" alt="tube" id="tube"> Youtube</p>
-                                <p class="p-content">High Quality Likes, Followers and Comment</p
-                                    >
-                                <span class="more">More</span>
-                            </section>
-                        </div>
+            <div class="container mt-3 mb-3">
+                <div class="content m-0 p-0">
+                    <div class="card1">
+                        <section class="card-content">
+                            <p class="med"><img src="assets/insta.png" id="insta"> Instagram</p>
+                            <p class="p-content">High Quality Likes, Followers and Comment</p>
+                            <button class="more">More</button>
+                        </section>
                     </div>
-                    
+                    <div class="card2">
+                        <section class="card-content">
+                            <p class="med"><img src="assets/twit.png" id="twit"> Twitter</p>
+                            <p class="p-content">High Quality Likes, Followers and Comment</p>
+                            <button class="more">More</button>
+                        </section>
+                    </div>
+                    <div class="card3">
+                        <section class="card-content">
+                            <p class="med"><img src="assets/tube.png" id="tube"> Youtube</p>
+                            <p class="p-content">High Quality Likes, Followers and Comment</p>
+                            <button class="more">More</button>
+                        </section>
+                    </div>
                 </div>
-    </section>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 </html>
