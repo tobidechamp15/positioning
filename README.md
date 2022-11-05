@@ -17,7 +17,7 @@ Liveserver
 
 ## Live Demo
 
-[Live Demo] <https://positioning23.netlify.app/>
+[Live Demo](https://positioning23.netlify.app/)
 
 ### Setup
 
