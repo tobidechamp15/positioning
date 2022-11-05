@@ -1,5 +1,7 @@
 # Positioning
+
 > Created to show the positioning of cards on a webpage
+
 ## Built With
 
 - HTML, CSS
@@ -15,7 +17,7 @@ Liveserver
 
 ## Live Demo
 
-Coming soon
+[Live Demo] <https://positioning23.netlify.app/>
 
 ### Setup
 
