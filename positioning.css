@@ -140,9 +140,10 @@ img {
   position: absolute;
   top: -50px;
 }
-@media (min-width: 768px){
-.col-md-3 {
+@media (min-width: 768px) {
+  .col-md-3 {
     flex: 0 0 auto;
     width: 25%;
     margin-top: 65px;
-}}
+  }
+}
